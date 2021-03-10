@@ -1,0 +1,125 @@
+.content {
+}
+.content__container {
+   margin: 0px auto;
+   max-width: 500px;
+}
+.face {
+   border: 1px solid #000;
+   width: 500px;
+   height: 500px;
+   background: url("../img/face.png") center 0 no-repeat;
+   background-size: contain;
+   position: relative;
+}
+.face__eyelids {
+   display: flex;
+   justify-content: space-between;
+   margin: 0px auto;
+   padding: 178px 0px 0px 0px;
+   max-width: 155px;
+}
+
+.eye-lids {
+   /* border: 1px solid #000; */
+   width: 48px;
+   height: 40px;
+   display: flex;
+   justify-content: center;
+   /* align-items: center; */
+   position: relative;
+   overflow: hidden;
+}
+.face__eyelids-left {
+   background: url("../img/eye__left.png") center 0 no-repeat;
+   margin: 0px 0px 0px 3px;
+   background-size: contain;
+}
+.face__eyelids-right {
+   background: url("../img/eye__right.png") center 0 no-repeat;
+   background-size: contain;
+}
+.face__eyelids-eye {
+   border: 1px solid #000;
+   width: 50px;
+   height: 50px;
+   border-radius: 10%;
+   /* background-color: cadetblue; */
+
+   margin: 30px 0px 0px 0px;
+}
+.face__eyelids-lids-left {
+   background: url("../img/lid__left.png") center 0 no-repeat;
+   background-size: 10.1%;
+   margin: -3px 0px 0px 0px;
+}
+
+.face__eyelids-lids-right {
+   background: url("../img/lid__right.png") center 0 no-repeat;
+   background-size: 10.1%;
+}
+
+.eye-lids-lid {
+   position: absolute;
+   width: 500px;
+   height: 100%;
+   /* background-color: blanchedalmond; */
+}
+
+.face__mouth {
+   height: 45%;
+   margin: 11% 0px 0px 0px;
+   width: 100%;
+}
+
+.bonuce {
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+.bonuce__slow-speed {
+}
+
+.bonuce-selector {
+   border: 1px solid #000;
+   width: 50px;
+   height: 50px;
+   text-align: center;
+   margin: 0px 0px 5px 0px;
+}
+.money {
+   position: absolute;
+   width: 100px;
+   height: 30px;
+   text-align: center;
+   line-height: 30px;
+   right: 0;
+   top: 0;
+   font-family: "Stick", sans-serif;
+   background: url("../img/money.png") left center no-repeat;
+   background-size: 25%;
+   padding: 0px 0px 0px 10px;
+}
+
+.start {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   z-index: 10;
+   background-color: rgba(255, 255, 255, 0.7);
+}
+
+.start__btn {
+   max-width: 200px;
+   margin: 45% auto 0px auto;
+   text-align: center;
+   font-size: 20px;
+   text-transform: uppercase;
+}
+.hide {
+   display: none;
+   overflow: hidden;
+}
