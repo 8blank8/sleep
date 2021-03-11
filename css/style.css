@@ -123,3 +123,8 @@
    display: none;
    overflow: hidden;
 }
+
+
+.body{
+   max-width: 300px;
+}
